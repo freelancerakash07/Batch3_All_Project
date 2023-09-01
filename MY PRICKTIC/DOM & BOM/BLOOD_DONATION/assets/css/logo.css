@@ -1,0 +1,29 @@
+
+
+.input_button{
+    border-top: 0px solid #FFFF;
+    border-left: 0px solid #FFFF;
+    border-right: 0px solid #FFFF;
+    border-bottom: 2px solid rgb(23, 23, 23);
+    width: 100%;
+    outline: none;
+    position: relative;
+}
+
+
+
+.login_form {
+    position: absolute;
+    top: 120px;
+    left: 51px;
+}
+.login_form h3{
+    margin-top: -10px;
+}
+
+
+.refistion_from{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}

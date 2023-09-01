@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: skyblue;
+}
+
+#photoPrevew{
+    height: 250px;
+    object-fit: contain;
+}
+
+.img_box img{
+    height: 250px;
+    width: 200px;
+    object-fit: contain;
+    margin: 5px;
+}
+
+button.galPhotDelet {
+    position: absolute;
+    margin-left: -40px;
+    margin-top: 20px;
+    color: #FFFF !important;
+}
