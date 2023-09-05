@@ -61,6 +61,7 @@ new_student_data.onsubmit = (e) => {
     const form_data = new FormData(e.target)
     const data = Object.fromEntries(form_data);
 
+    console.log(data);
     const {photo, name , roll , reg} = data
 
     if( !photo || !name || !roll || !reg){
